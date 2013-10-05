@@ -1,76 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>globe</title>
-    <link href="assets/css/globestyle.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div id="wrapper">
-      <div class="row show-grid">
-        <div class="col-lg-9">
-          <div class="row show-grid">
-            <div class="col-lg-6">
-              <div id = "globe"></div>
-            </div>
-            <div class="col-lg-6">
-              <div class="jumbotron" style="padding:20px;">
-                <h3>Forest Conservation Performance Rating</h3>
-                <h4> 
-                  <small> 
+<meta charset="utf-8">
 
-                    The Forest Conservation Performance Rating (fCPR)
-                    is a system of color-coded ratings for tropical
-                    forest conservation performance that can be
-                    implemented for local areas, countries, regions,
-                    and the entire pan-tropics. The ratings reward
-                    tropical forest conservation in three dimensions:
-                    (1) exceeding expectations, given an area's forest
-                    clearing history and development status; (2)
-                    meeting or exceeding global REDD+ goals; and (3)
-                    achieving an immediate reduction in forest
-                    clearing.
-                    <br><br>
-                    Green ratings are assigned to areas that meet
-                    condition (2); yellow to areas that meet (1) only;
-                    and red to countries that fail to meet either
-                    condition. We have developed fCPR at the Center
-                    for Global Development (CGD), using monthly forest
-                    clearing indicators from CGD's FORMA (Forest
-                    Monitoring for Action). This first release rates
-                    the quarterly conservation performance of 27
-                    countries currently tracked by FORMA, as well as
-                    242 of their states and provinces that contain
-                    tropical forests. The 27 countries accounted for
-                    94 percent of tropical forest clearing during the
-                    period 2000-2005. Future releases will include
-                    additional countries as FORMA begins tracking
-                    them.
-                    <br>
-                  </small>
-                </h4>
-                <p style="align:center;">
-                  <a class="btn btn-primary btn-lg" href="http://www.cgdev.org/publication/fcpr%E2%80%93forest-conservation-performance-rating-pan-tropics-working-paper-294">More Information</a>
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="jumbotron" style="padding:20px;">
-                <div id="map"></div>
-                <div id="graph"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<head>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="assets/css/globestyle.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- style="border-style:solid;" -->
+  <div class="row show-grid pageheader" style="margin: 20px;">
+    <h2 style="font-weight:bold;">Forest Conservation Performance Index 
+      <small>      
+        <i class="icon-github"></i>
+        <i class="icon-twitter"></i>
+        <i class="icon-envelope"></i>
+      </small>
+    </h2>
+    <div class="col-lg-7"  id="map">
     </div>
 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="http://d3js.org/topojson.v1.js" charset="utf-8"></script>
-    <script src="assets/js/map.js"></script>
-    <script src="assets/js/graph.js"></script>
-  </body>
-</html>
+    <div class="col-lg-5">
+      <p style="font-weight:bold;"> 
+        The goal of fCPR is to indicate problem areas where focused
+        attention may promote more rapid progress against
+        deforestation. Reports will be published annually as working
+        papers; interim findings and updates to the data will be
+        posted to this page and announced to subscribers through our
+        climate change newsletter.
+      </p>
+      <div id="namer"></div>
+      <div id="graph"></div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="assets/js/map.js"></script>
