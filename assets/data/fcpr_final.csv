@@ -1,0 +1,1787 @@
+iso,country,period,score
+,AFRICA,200804,2
+,AFRICA,200901,2
+,AFRICA,200902,1
+,AFRICA,200903,1
+,AFRICA,200904,1
+,AFRICA,201001,1
+,AFRICA,201002,2
+,AFRICA,201003,2
+,AFRICA,201004,2
+,AFRICA,201101,2
+,AFRICA,201102,2
+,AFRICA,201103,2
+,AFRICA,201104,1
+,AFRICA,201201,1
+,AFRICA,201202,1
+,AFRICA,201203,1
+,AFRICA,201204,1
+,AFRICA,201301,2
+,AFRICA,201302,2
+,ASIA,200804,1
+,ASIA,200901,1
+,ASIA,200902,2
+,ASIA,200903,3
+,ASIA,200904,2
+,ASIA,201001,2
+,ASIA,201002,2
+,ASIA,201003,2
+,ASIA,201004,2
+,ASIA,201101,2
+,ASIA,201102,3
+,ASIA,201103,2
+,ASIA,201104,2
+,ASIA,201201,2
+,ASIA,201202,1
+,ASIA,201203,1
+,ASIA,201204,2
+,ASIA,201301,1
+,ASIA,201302,2
+,GLOBAL,200804,2
+,GLOBAL,200901,2
+,GLOBAL,200902,2
+,GLOBAL,200903,3
+,GLOBAL,200904,3
+,GLOBAL,201001,3
+,GLOBAL,201002,2
+,GLOBAL,201003,3
+,GLOBAL,201004,3
+,GLOBAL,201101,2
+,GLOBAL,201102,3
+,GLOBAL,201103,2
+,GLOBAL,201104,2
+,GLOBAL,201201,2
+,GLOBAL,201202,2
+,GLOBAL,201203,2
+,GLOBAL,201204,2
+,GLOBAL,201301,2
+,GLOBAL,201302,2
+,LATIN AMERICA, CARIBBEAN,200804,2
+,LATIN AMERICA, CARIBBEAN,200901,2
+,LATIN AMERICA, CARIBBEAN,200902,2
+,LATIN AMERICA, CARIBBEAN,200903,3
+,LATIN AMERICA, CARIBBEAN,200904,3
+,LATIN AMERICA, CARIBBEAN,201001,3
+,LATIN AMERICA, CARIBBEAN,201002,3
+,LATIN AMERICA, CARIBBEAN,201003,3
+,LATIN AMERICA, CARIBBEAN,201004,3
+,LATIN AMERICA, CARIBBEAN,201101,3
+,LATIN AMERICA, CARIBBEAN,201102,3
+,LATIN AMERICA, CARIBBEAN,201103,2
+,LATIN AMERICA, CARIBBEAN,201104,3
+,LATIN AMERICA, CARIBBEAN,201201,3
+,LATIN AMERICA, CARIBBEAN,201202,3
+,LATIN AMERICA, CARIBBEAN,201203,3
+,LATIN AMERICA, CARIBBEAN,201204,3
+,LATIN AMERICA, CARIBBEAN,201301,3
+,LATIN AMERICA, CARIBBEAN,201302,3
+,OCEANIA,200804,1
+,OCEANIA,200901,1
+,OCEANIA,200902,1
+,OCEANIA,200903,1
+,OCEANIA,200904,1
+,OCEANIA,201001,1
+,OCEANIA,201002,1
+,OCEANIA,201003,2
+,OCEANIA,201004,2
+,OCEANIA,201101,2
+,OCEANIA,201102,2
+,OCEANIA,201103,1
+,OCEANIA,201104,1
+,OCEANIA,201201,1
+,OCEANIA,201202,1
+,OCEANIA,201203,1
+,OCEANIA,201204,1
+,OCEANIA,201301,2
+,OCEANIA,201302,2
+AGO,Angola,200804,4
+AGO,Angola,200901,4
+AGO,Angola,200902,4
+AGO,Angola,200903,4
+AGO,Angola,200904,4
+AGO,Angola,201001,4
+AGO,Angola,201002,4
+AGO,Angola,201003,4
+AGO,Angola,201004,4
+AGO,Angola,201101,4
+AGO,Angola,201102,4
+AGO,Angola,201103,4
+AGO,Angola,201104,4
+AGO,Angola,201201,4
+AGO,Angola,201202,4
+AGO,Angola,201203,4
+AGO,Angola,201204,4
+AGO,Angola,201301,4
+AGO,Angola,201302,4
+ARG,Argentina,200804,2
+ARG,Argentina,200901,2
+ARG,Argentina,200902,1
+ARG,Argentina,200903,1
+ARG,Argentina,200904,1
+ARG,Argentina,201001,2
+ARG,Argentina,201002,2
+ARG,Argentina,201003,2
+ARG,Argentina,201004,4
+ARG,Argentina,201101,4
+ARG,Argentina,201102,4
+ARG,Argentina,201103,4
+ARG,Argentina,201104,4
+ARG,Argentina,201201,4
+ARG,Argentina,201202,4
+ARG,Argentina,201203,4
+ARG,Argentina,201204,4
+ARG,Argentina,201301,4
+ARG,Argentina,201302,4
+ATG,Antigua and Barbuda,200804,4
+ATG,Antigua and Barbuda,200901,4
+ATG,Antigua and Barbuda,200902,4
+ATG,Antigua and Barbuda,200903,4
+ATG,Antigua and Barbuda,200904,4
+ATG,Antigua and Barbuda,201001,4
+ATG,Antigua and Barbuda,201002,4
+ATG,Antigua and Barbuda,201003,4
+ATG,Antigua and Barbuda,201004,4
+ATG,Antigua and Barbuda,201101,4
+ATG,Antigua and Barbuda,201102,4
+ATG,Antigua and Barbuda,201103,4
+ATG,Antigua and Barbuda,201104,4
+ATG,Antigua and Barbuda,201201,4
+ATG,Antigua and Barbuda,201202,4
+ATG,Antigua and Barbuda,201203,4
+ATG,Antigua and Barbuda,201204,4
+ATG,Antigua and Barbuda,201301,4
+ATG,Antigua and Barbuda,201302,4
+BDI,Burundi,200804,4
+BDI,Burundi,200901,4
+BDI,Burundi,200902,4
+BDI,Burundi,200903,4
+BDI,Burundi,200904,1
+BDI,Burundi,201001,2
+BDI,Burundi,201002,2
+BDI,Burundi,201003,2
+BDI,Burundi,201004,4
+BDI,Burundi,201101,4
+BDI,Burundi,201102,4
+BDI,Burundi,201103,3
+BDI,Burundi,201104,1
+BDI,Burundi,201201,2
+BDI,Burundi,201202,2
+BDI,Burundi,201203,1
+BDI,Burundi,201204,1
+BDI,Burundi,201301,1
+BDI,Burundi,201302,1
+BEN,Benin,200804,4
+BEN,Benin,200901,4
+BEN,Benin,200902,4
+BEN,Benin,200903,4
+BEN,Benin,200904,4
+BEN,Benin,201001,4
+BEN,Benin,201002,4
+BEN,Benin,201003,4
+BEN,Benin,201004,4
+BEN,Benin,201101,4
+BEN,Benin,201102,4
+BEN,Benin,201103,4
+BEN,Benin,201104,3
+BEN,Benin,201201,4
+BEN,Benin,201202,4
+BEN,Benin,201203,4
+BEN,Benin,201204,4
+BEN,Benin,201301,4
+BEN,Benin,201302,4
+BGD,Bangladesh,200804,2
+BGD,Bangladesh,200901,1
+BGD,Bangladesh,200902,1
+BGD,Bangladesh,200903,1
+BGD,Bangladesh,200904,1
+BGD,Bangladesh,201001,1
+BGD,Bangladesh,201002,1
+BGD,Bangladesh,201003,1
+BGD,Bangladesh,201004,1
+BGD,Bangladesh,201101,1
+BGD,Bangladesh,201102,2
+BGD,Bangladesh,201103,2
+BGD,Bangladesh,201104,2
+BGD,Bangladesh,201201,1
+BGD,Bangladesh,201202,1
+BGD,Bangladesh,201203,1
+BGD,Bangladesh,201204,2
+BGD,Bangladesh,201301,1
+BGD,Bangladesh,201302,1
+BLZ,Belize,200804,1
+BLZ,Belize,200901,2
+BLZ,Belize,200902,1
+BLZ,Belize,200903,1
+BLZ,Belize,200904,2
+BLZ,Belize,201001,2
+BLZ,Belize,201002,1
+BLZ,Belize,201003,2
+BLZ,Belize,201004,1
+BLZ,Belize,201101,1
+BLZ,Belize,201102,1
+BLZ,Belize,201103,1
+BLZ,Belize,201104,1
+BLZ,Belize,201201,1
+BLZ,Belize,201202,1
+BLZ,Belize,201203,2
+BLZ,Belize,201204,2
+BLZ,Belize,201301,2
+BLZ,Belize,201302,2
+BOL,Bolivia,200804,2
+BOL,Bolivia,200901,2
+BOL,Bolivia,200902,4
+BOL,Bolivia,200903,4
+BOL,Bolivia,200904,4
+BOL,Bolivia,201001,4
+BOL,Bolivia,201002,4
+BOL,Bolivia,201003,4
+BOL,Bolivia,201004,1
+BOL,Bolivia,201101,1
+BOL,Bolivia,201102,1
+BOL,Bolivia,201103,1
+BOL,Bolivia,201104,1
+BOL,Bolivia,201201,2
+BOL,Bolivia,201202,2
+BOL,Bolivia,201203,2
+BOL,Bolivia,201204,4
+BOL,Bolivia,201301,4
+BOL,Bolivia,201302,4
+BRA,Brazil,200804,2
+BRA,Brazil,200901,2
+BRA,Brazil,200902,2
+BRA,Brazil,200903,4
+BRA,Brazil,200904,4
+BRA,Brazil,201001,4
+BRA,Brazil,201002,4
+BRA,Brazil,201003,4
+BRA,Brazil,201004,4
+BRA,Brazil,201101,4
+BRA,Brazil,201102,4
+BRA,Brazil,201103,3
+BRA,Brazil,201104,4
+BRA,Brazil,201201,4
+BRA,Brazil,201202,4
+BRA,Brazil,201203,4
+BRA,Brazil,201204,4
+BRA,Brazil,201301,4
+BRA,Brazil,201302,4
+BRN,Brunei,200804,4
+BRN,Brunei,200901,4
+BRN,Brunei,200902,4
+BRN,Brunei,200903,1
+BRN,Brunei,200904,1
+BRN,Brunei,201001,1
+BRN,Brunei,201002,1
+BRN,Brunei,201003,2
+BRN,Brunei,201004,2
+BRN,Brunei,201101,1
+BRN,Brunei,201102,1
+BRN,Brunei,201103,1
+BRN,Brunei,201104,1
+BRN,Brunei,201201,1
+BRN,Brunei,201202,2
+BRN,Brunei,201203,2
+BRN,Brunei,201204,2
+BRN,Brunei,201301,2
+BRN,Brunei,201302,2
+BTN,Bhutan,200804,1
+BTN,Bhutan,200901,1
+BTN,Bhutan,200902,1
+BTN,Bhutan,200903,2
+BTN,Bhutan,200904,1
+BTN,Bhutan,201001,2
+BTN,Bhutan,201002,2
+BTN,Bhutan,201003,1
+BTN,Bhutan,201004,1
+BTN,Bhutan,201101,1
+BTN,Bhutan,201102,1
+BTN,Bhutan,201103,1
+BTN,Bhutan,201104,2
+BTN,Bhutan,201201,1
+BTN,Bhutan,201202,1
+BTN,Bhutan,201203,1
+BTN,Bhutan,201204,2
+BTN,Bhutan,201301,1
+BTN,Bhutan,201302,2
+CAF,Central African Republic,200804,1
+CAF,Central African Republic,200901,1
+CAF,Central African Republic,200902,2
+CAF,Central African Republic,200903,2
+CAF,Central African Republic,200904,4
+CAF,Central African Republic,201001,4
+CAF,Central African Republic,201002,1
+CAF,Central African Republic,201003,1
+CAF,Central African Republic,201004,1
+CAF,Central African Republic,201101,1
+CAF,Central African Republic,201102,1
+CAF,Central African Republic,201103,2
+CAF,Central African Republic,201104,1
+CAF,Central African Republic,201201,1
+CAF,Central African Republic,201202,1
+CAF,Central African Republic,201203,1
+CAF,Central African Republic,201204,2
+CAF,Central African Republic,201301,2
+CAF,Central African Republic,201302,2
+CHN,China,200804,4
+CHN,China,200901,4
+CHN,China,200902,4
+CHN,China,200903,4
+CHN,China,200904,4
+CHN,China,201001,4
+CHN,China,201002,4
+CHN,China,201003,4
+CHN,China,201004,4
+CHN,China,201101,4
+CHN,China,201102,3
+CHN,China,201103,3
+CHN,China,201104,3
+CHN,China,201201,1
+CHN,China,201202,1
+CHN,China,201203,1
+CHN,China,201204,2
+CHN,China,201301,2
+CHN,China,201302,2
+CIV,Côte d'Ivoire,200804,1
+CIV,Côte d'Ivoire,200901,1
+CIV,Côte d'Ivoire,200902,1
+CIV,Côte d'Ivoire,200903,1
+CIV,Côte d'Ivoire,200904,1
+CIV,Côte d'Ivoire,201001,1
+CIV,Côte d'Ivoire,201002,1
+CIV,Côte d'Ivoire,201003,1
+CIV,Côte d'Ivoire,201004,1
+CIV,Côte d'Ivoire,201101,1
+CIV,Côte d'Ivoire,201102,1
+CIV,Côte d'Ivoire,201103,1
+CIV,Côte d'Ivoire,201104,1
+CIV,Côte d'Ivoire,201201,1
+CIV,Côte d'Ivoire,201202,1
+CIV,Côte d'Ivoire,201203,1
+CIV,Côte d'Ivoire,201204,1
+CIV,Côte d'Ivoire,201301,2
+CIV,Côte d'Ivoire,201302,2
+CMR,Cameroon,200804,1
+CMR,Cameroon,200901,1
+CMR,Cameroon,200902,1
+CMR,Cameroon,200903,1
+CMR,Cameroon,200904,1
+CMR,Cameroon,201001,1
+CMR,Cameroon,201002,1
+CMR,Cameroon,201003,1
+CMR,Cameroon,201004,1
+CMR,Cameroon,201101,1
+CMR,Cameroon,201102,1
+CMR,Cameroon,201103,2
+CMR,Cameroon,201104,1
+CMR,Cameroon,201201,1
+CMR,Cameroon,201202,1
+CMR,Cameroon,201203,1
+CMR,Cameroon,201204,1
+CMR,Cameroon,201301,2
+CMR,Cameroon,201302,2
+COD,Democratic Republic of the Congo,200804,1
+COD,Democratic Republic of the Congo,200901,1
+COD,Democratic Republic of the Congo,200902,1
+COD,Democratic Republic of the Congo,200903,1
+COD,Democratic Republic of the Congo,200904,1
+COD,Democratic Republic of the Congo,201001,1
+COD,Democratic Republic of the Congo,201002,1
+COD,Democratic Republic of the Congo,201003,1
+COD,Democratic Republic of the Congo,201004,1
+COD,Democratic Republic of the Congo,201101,1
+COD,Democratic Republic of the Congo,201102,1
+COD,Democratic Republic of the Congo,201103,1
+COD,Democratic Republic of the Congo,201104,1
+COD,Democratic Republic of the Congo,201201,1
+COD,Democratic Republic of the Congo,201202,1
+COD,Democratic Republic of the Congo,201203,1
+COD,Democratic Republic of the Congo,201204,2
+COD,Democratic Republic of the Congo,201301,2
+COD,Democratic Republic of the Congo,201302,2
+COG,Republic of Congo,200804,1
+COG,Republic of Congo,200901,2
+COG,Republic of Congo,200902,2
+COG,Republic of Congo,200903,1
+COG,Republic of Congo,200904,1
+COG,Republic of Congo,201001,1
+COG,Republic of Congo,201002,1
+COG,Republic of Congo,201003,1
+COG,Republic of Congo,201004,1
+COG,Republic of Congo,201101,1
+COG,Republic of Congo,201102,1
+COG,Republic of Congo,201103,1
+COG,Republic of Congo,201104,1
+COG,Republic of Congo,201201,1
+COG,Republic of Congo,201202,1
+COG,Republic of Congo,201203,2
+COG,Republic of Congo,201204,2
+COG,Republic of Congo,201301,2
+COG,Republic of Congo,201302,2
+COL,Colombia,200804,1
+COL,Colombia,200901,1
+COL,Colombia,200902,1
+COL,Colombia,200903,2
+COL,Colombia,200904,1
+COL,Colombia,201001,1
+COL,Colombia,201002,1
+COL,Colombia,201003,1
+COL,Colombia,201004,1
+COL,Colombia,201101,1
+COL,Colombia,201102,1
+COL,Colombia,201103,1
+COL,Colombia,201104,1
+COL,Colombia,201201,1
+COL,Colombia,201202,1
+COL,Colombia,201203,2
+COL,Colombia,201204,2
+COL,Colombia,201301,2
+COL,Colombia,201302,2
+COM,Comoros,200804,1
+COM,Comoros,200901,1
+COM,Comoros,200902,1
+COM,Comoros,200903,1
+COM,Comoros,200904,1
+COM,Comoros,201001,1
+COM,Comoros,201002,1
+COM,Comoros,201003,2
+COM,Comoros,201004,2
+COM,Comoros,201101,2
+COM,Comoros,201102,2
+COM,Comoros,201103,1
+COM,Comoros,201104,1
+COM,Comoros,201201,1
+COM,Comoros,201202,1
+COM,Comoros,201203,1
+COM,Comoros,201204,1
+COM,Comoros,201301,2
+COM,Comoros,201302,2
+CRI,Costa Rica,200804,1
+CRI,Costa Rica,200901,1
+CRI,Costa Rica,200902,1
+CRI,Costa Rica,200903,1
+CRI,Costa Rica,200904,1
+CRI,Costa Rica,201001,1
+CRI,Costa Rica,201002,1
+CRI,Costa Rica,201003,2
+CRI,Costa Rica,201004,1
+CRI,Costa Rica,201101,1
+CRI,Costa Rica,201102,1
+CRI,Costa Rica,201103,1
+CRI,Costa Rica,201104,1
+CRI,Costa Rica,201201,1
+CRI,Costa Rica,201202,1
+CRI,Costa Rica,201203,2
+CRI,Costa Rica,201204,1
+CRI,Costa Rica,201301,2
+CRI,Costa Rica,201302,2
+CUB,Cuba,200804,1
+CUB,Cuba,200901,4
+CUB,Cuba,200902,4
+CUB,Cuba,200903,4
+CUB,Cuba,200904,4
+CUB,Cuba,201001,1
+CUB,Cuba,201002,1
+CUB,Cuba,201003,1
+CUB,Cuba,201004,2
+CUB,Cuba,201101,2
+CUB,Cuba,201102,4
+CUB,Cuba,201103,4
+CUB,Cuba,201104,4
+CUB,Cuba,201201,4
+CUB,Cuba,201202,4
+CUB,Cuba,201203,4
+CUB,Cuba,201204,1
+CUB,Cuba,201301,1
+CUB,Cuba,201302,1
+CXR,Christmas Island,200804,4
+CXR,Christmas Island,200901,4
+CXR,Christmas Island,200902,4
+CXR,Christmas Island,200903,4
+CXR,Christmas Island,200904,4
+CXR,Christmas Island,201001,4
+CXR,Christmas Island,201002,4
+CXR,Christmas Island,201003,4
+CXR,Christmas Island,201004,4
+CXR,Christmas Island,201101,4
+CXR,Christmas Island,201102,4
+CXR,Christmas Island,201103,4
+CXR,Christmas Island,201104,4
+CXR,Christmas Island,201201,4
+CXR,Christmas Island,201202,4
+CXR,Christmas Island,201203,4
+CXR,Christmas Island,201204,4
+CXR,Christmas Island,201301,4
+CXR,Christmas Island,201302,4
+DMA,Dominica,200804,2
+DMA,Dominica,200901,2
+DMA,Dominica,200902,4
+DMA,Dominica,200903,4
+DMA,Dominica,200904,1
+DMA,Dominica,201001,1
+DMA,Dominica,201002,1
+DMA,Dominica,201003,1
+DMA,Dominica,201004,1
+DMA,Dominica,201101,1
+DMA,Dominica,201102,1
+DMA,Dominica,201103,1
+DMA,Dominica,201104,2
+DMA,Dominica,201201,1
+DMA,Dominica,201202,2
+DMA,Dominica,201203,2
+DMA,Dominica,201204,2
+DMA,Dominica,201301,2
+DMA,Dominica,201302,2
+DOM,Dominican Republic,200804,1
+DOM,Dominican Republic,200901,1
+DOM,Dominican Republic,200902,1
+DOM,Dominican Republic,200903,2
+DOM,Dominican Republic,200904,2
+DOM,Dominican Republic,201001,2
+DOM,Dominican Republic,201002,2
+DOM,Dominican Republic,201003,1
+DOM,Dominican Republic,201004,1
+DOM,Dominican Republic,201101,1
+DOM,Dominican Republic,201102,2
+DOM,Dominican Republic,201103,2
+DOM,Dominican Republic,201104,3
+DOM,Dominican Republic,201201,1
+DOM,Dominican Republic,201202,1
+DOM,Dominican Republic,201203,1
+DOM,Dominican Republic,201204,1
+DOM,Dominican Republic,201301,1
+DOM,Dominican Republic,201302,1
+ECU,Ecuador,200804,1
+ECU,Ecuador,200901,1
+ECU,Ecuador,200902,1
+ECU,Ecuador,200903,1
+ECU,Ecuador,200904,1
+ECU,Ecuador,201001,1
+ECU,Ecuador,201002,2
+ECU,Ecuador,201003,1
+ECU,Ecuador,201004,1
+ECU,Ecuador,201101,1
+ECU,Ecuador,201102,1
+ECU,Ecuador,201103,1
+ECU,Ecuador,201104,1
+ECU,Ecuador,201201,1
+ECU,Ecuador,201202,1
+ECU,Ecuador,201203,1
+ECU,Ecuador,201204,1
+ECU,Ecuador,201301,1
+ECU,Ecuador,201302,1
+FJI,Fiji,200804,4
+FJI,Fiji,200901,4
+FJI,Fiji,200902,4
+FJI,Fiji,200903,4
+FJI,Fiji,200904,4
+FJI,Fiji,201001,4
+FJI,Fiji,201002,4
+FJI,Fiji,201003,4
+FJI,Fiji,201004,4
+FJI,Fiji,201101,4
+FJI,Fiji,201102,4
+FJI,Fiji,201103,4
+FJI,Fiji,201104,4
+FJI,Fiji,201201,4
+FJI,Fiji,201202,4
+FJI,Fiji,201203,4
+FJI,Fiji,201204,4
+FJI,Fiji,201301,4
+FJI,Fiji,201302,4
+FSM,Micronesia,200804,4
+FSM,Micronesia,200901,4
+FSM,Micronesia,200902,4
+FSM,Micronesia,200903,4
+FSM,Micronesia,200904,4
+FSM,Micronesia,201001,4
+FSM,Micronesia,201002,4
+FSM,Micronesia,201003,4
+FSM,Micronesia,201004,4
+FSM,Micronesia,201101,4
+FSM,Micronesia,201102,4
+FSM,Micronesia,201103,4
+FSM,Micronesia,201104,4
+FSM,Micronesia,201201,4
+FSM,Micronesia,201202,4
+FSM,Micronesia,201203,4
+FSM,Micronesia,201204,4
+FSM,Micronesia,201301,4
+FSM,Micronesia,201302,4
+GAB,Gabon,200804,1
+GAB,Gabon,200901,1
+GAB,Gabon,200902,1
+GAB,Gabon,200903,1
+GAB,Gabon,200904,1
+GAB,Gabon,201001,1
+GAB,Gabon,201002,1
+GAB,Gabon,201003,1
+GAB,Gabon,201004,2
+GAB,Gabon,201101,2
+GAB,Gabon,201102,1
+GAB,Gabon,201103,1
+GAB,Gabon,201104,1
+GAB,Gabon,201201,1
+GAB,Gabon,201202,2
+GAB,Gabon,201203,2
+GAB,Gabon,201204,2
+GAB,Gabon,201301,1
+GAB,Gabon,201302,1
+GHA,Ghana,200804,2
+GHA,Ghana,200901,2
+GHA,Ghana,200902,2
+GHA,Ghana,200903,1
+GHA,Ghana,200904,1
+GHA,Ghana,201001,1
+GHA,Ghana,201002,1
+GHA,Ghana,201003,1
+GHA,Ghana,201004,2
+GHA,Ghana,201101,1
+GHA,Ghana,201102,1
+GHA,Ghana,201103,1
+GHA,Ghana,201104,1
+GHA,Ghana,201201,1
+GHA,Ghana,201202,1
+GHA,Ghana,201203,1
+GHA,Ghana,201204,1
+GHA,Ghana,201301,1
+GHA,Ghana,201302,2
+GIN,Guinea,200804,1
+GIN,Guinea,200901,1
+GIN,Guinea,200902,1
+GIN,Guinea,200903,1
+GIN,Guinea,200904,1
+GIN,Guinea,201001,1
+GIN,Guinea,201002,1
+GIN,Guinea,201003,1
+GIN,Guinea,201004,1
+GIN,Guinea,201101,1
+GIN,Guinea,201102,1
+GIN,Guinea,201103,1
+GIN,Guinea,201104,1
+GIN,Guinea,201201,1
+GIN,Guinea,201202,1
+GIN,Guinea,201203,2
+GIN,Guinea,201204,2
+GIN,Guinea,201301,2
+GIN,Guinea,201302,2
+GLP,Guadeloupe,200804,4
+GLP,Guadeloupe,200901,4
+GLP,Guadeloupe,200902,1
+GLP,Guadeloupe,200903,1
+GLP,Guadeloupe,200904,2
+GLP,Guadeloupe,201001,1
+GLP,Guadeloupe,201002,1
+GLP,Guadeloupe,201003,2
+GLP,Guadeloupe,201004,2
+GLP,Guadeloupe,201101,2
+GLP,Guadeloupe,201102,2
+GLP,Guadeloupe,201103,1
+GLP,Guadeloupe,201104,1
+GLP,Guadeloupe,201201,1
+GLP,Guadeloupe,201202,2
+GLP,Guadeloupe,201203,2
+GLP,Guadeloupe,201204,1
+GLP,Guadeloupe,201301,2
+GLP,Guadeloupe,201302,2
+GNQ,Equatorial Guinea,200804,1
+GNQ,Equatorial Guinea,200901,1
+GNQ,Equatorial Guinea,200902,1
+GNQ,Equatorial Guinea,200903,1
+GNQ,Equatorial Guinea,200904,1
+GNQ,Equatorial Guinea,201001,1
+GNQ,Equatorial Guinea,201002,1
+GNQ,Equatorial Guinea,201003,1
+GNQ,Equatorial Guinea,201004,1
+GNQ,Equatorial Guinea,201101,1
+GNQ,Equatorial Guinea,201102,1
+GNQ,Equatorial Guinea,201103,2
+GNQ,Equatorial Guinea,201104,1
+GNQ,Equatorial Guinea,201201,1
+GNQ,Equatorial Guinea,201202,1
+GNQ,Equatorial Guinea,201203,1
+GNQ,Equatorial Guinea,201204,1
+GNQ,Equatorial Guinea,201301,2
+GNQ,Equatorial Guinea,201302,1
+GTM,Guatemala,200804,1
+GTM,Guatemala,200901,1
+GTM,Guatemala,200902,1
+GTM,Guatemala,200903,1
+GTM,Guatemala,200904,2
+GTM,Guatemala,201001,2
+GTM,Guatemala,201002,2
+GTM,Guatemala,201003,2
+GTM,Guatemala,201004,1
+GTM,Guatemala,201101,1
+GTM,Guatemala,201102,1
+GTM,Guatemala,201103,2
+GTM,Guatemala,201104,2
+GTM,Guatemala,201201,1
+GTM,Guatemala,201202,2
+GTM,Guatemala,201203,2
+GTM,Guatemala,201204,2
+GTM,Guatemala,201301,2
+GTM,Guatemala,201302,2
+GUF,French Guiana,200804,1
+GUF,French Guiana,200901,1
+GUF,French Guiana,200902,1
+GUF,French Guiana,200903,1
+GUF,French Guiana,200904,1
+GUF,French Guiana,201001,2
+GUF,French Guiana,201002,1
+GUF,French Guiana,201003,2
+GUF,French Guiana,201004,2
+GUF,French Guiana,201101,2
+GUF,French Guiana,201102,1
+GUF,French Guiana,201103,1
+GUF,French Guiana,201104,1
+GUF,French Guiana,201201,1
+GUF,French Guiana,201202,1
+GUF,French Guiana,201203,1
+GUF,French Guiana,201204,1
+GUF,French Guiana,201301,1
+GUF,French Guiana,201302,1
+GUY,Guyana,200804,1
+GUY,Guyana,200901,1
+GUY,Guyana,200902,1
+GUY,Guyana,200903,1
+GUY,Guyana,200904,1
+GUY,Guyana,201001,1
+GUY,Guyana,201002,1
+GUY,Guyana,201003,1
+GUY,Guyana,201004,1
+GUY,Guyana,201101,1
+GUY,Guyana,201102,1
+GUY,Guyana,201103,1
+GUY,Guyana,201104,1
+GUY,Guyana,201201,1
+GUY,Guyana,201202,1
+GUY,Guyana,201203,1
+GUY,Guyana,201204,1
+GUY,Guyana,201301,1
+GUY,Guyana,201302,1
+HKG,Hong Kong,200804,4
+HKG,Hong Kong,200901,4
+HKG,Hong Kong,200902,4
+HKG,Hong Kong,200903,4
+HKG,Hong Kong,200904,4
+HKG,Hong Kong,201001,4
+HKG,Hong Kong,201002,4
+HKG,Hong Kong,201003,4
+HKG,Hong Kong,201004,4
+HKG,Hong Kong,201101,4
+HKG,Hong Kong,201102,4
+HKG,Hong Kong,201103,4
+HKG,Hong Kong,201104,4
+HKG,Hong Kong,201201,4
+HKG,Hong Kong,201202,4
+HKG,Hong Kong,201203,4
+HKG,Hong Kong,201204,4
+HKG,Hong Kong,201301,4
+HKG,Hong Kong,201302,4
+HND,Honduras,200804,4
+HND,Honduras,200901,4
+HND,Honduras,200902,4
+HND,Honduras,200903,4
+HND,Honduras,200904,4
+HND,Honduras,201001,4
+HND,Honduras,201002,4
+HND,Honduras,201003,4
+HND,Honduras,201004,4
+HND,Honduras,201101,4
+HND,Honduras,201102,3
+HND,Honduras,201103,1
+HND,Honduras,201104,1
+HND,Honduras,201201,1
+HND,Honduras,201202,2
+HND,Honduras,201203,2
+HND,Honduras,201204,4
+HND,Honduras,201301,4
+HND,Honduras,201302,4
+HTI,Haiti,200804,1
+HTI,Haiti,200901,1
+HTI,Haiti,200902,1
+HTI,Haiti,200903,2
+HTI,Haiti,200904,2
+HTI,Haiti,201001,4
+HTI,Haiti,201002,4
+HTI,Haiti,201003,4
+HTI,Haiti,201004,4
+HTI,Haiti,201101,4
+HTI,Haiti,201102,4
+HTI,Haiti,201103,4
+HTI,Haiti,201104,4
+HTI,Haiti,201201,4
+HTI,Haiti,201202,4
+HTI,Haiti,201203,3
+HTI,Haiti,201204,1
+HTI,Haiti,201301,1
+HTI,Haiti,201302,1
+IDN,Indonesia,200804,1
+IDN,Indonesia,200901,1
+IDN,Indonesia,200902,3
+IDN,Indonesia,200903,4
+IDN,Indonesia,200904,4
+IDN,Indonesia,201001,4
+IDN,Indonesia,201002,4
+IDN,Indonesia,201003,4
+IDN,Indonesia,201004,4
+IDN,Indonesia,201101,4
+IDN,Indonesia,201102,4
+IDN,Indonesia,201103,4
+IDN,Indonesia,201104,3
+IDN,Indonesia,201201,3
+IDN,Indonesia,201202,1
+IDN,Indonesia,201203,1
+IDN,Indonesia,201204,2
+IDN,Indonesia,201301,1
+IDN,Indonesia,201302,3
+IND,India,200804,1
+IND,India,200901,1
+IND,India,200902,1
+IND,India,200903,1
+IND,India,200904,1
+IND,India,201001,1
+IND,India,201002,1
+IND,India,201003,1
+IND,India,201004,1
+IND,India,201101,1
+IND,India,201102,2
+IND,India,201103,2
+IND,India,201104,2
+IND,India,201201,2
+IND,India,201202,1
+IND,India,201203,1
+IND,India,201204,1
+IND,India,201301,2
+IND,India,201302,2
+JAM,Jamaica,200804,2
+JAM,Jamaica,200901,4
+JAM,Jamaica,200902,4
+JAM,Jamaica,200903,4
+JAM,Jamaica,200904,4
+JAM,Jamaica,201001,4
+JAM,Jamaica,201002,3
+JAM,Jamaica,201003,4
+JAM,Jamaica,201004,4
+JAM,Jamaica,201101,4
+JAM,Jamaica,201102,4
+JAM,Jamaica,201103,4
+JAM,Jamaica,201104,4
+JAM,Jamaica,201201,3
+JAM,Jamaica,201202,3
+JAM,Jamaica,201203,4
+JAM,Jamaica,201204,3
+JAM,Jamaica,201301,1
+JAM,Jamaica,201302,2
+KEN,Kenya,200804,4
+KEN,Kenya,200901,4
+KEN,Kenya,200902,1
+KEN,Kenya,200903,1
+KEN,Kenya,200904,1
+KEN,Kenya,201001,1
+KEN,Kenya,201002,2
+KEN,Kenya,201003,2
+KEN,Kenya,201004,4
+KEN,Kenya,201101,4
+KEN,Kenya,201102,4
+KEN,Kenya,201103,4
+KEN,Kenya,201104,4
+KEN,Kenya,201201,1
+KEN,Kenya,201202,1
+KEN,Kenya,201203,1
+KEN,Kenya,201204,1
+KEN,Kenya,201301,1
+KEN,Kenya,201302,2
+KHM,Cambodia,200804,4
+KHM,Cambodia,200901,1
+KHM,Cambodia,200902,2
+KHM,Cambodia,200903,4
+KHM,Cambodia,200904,4
+KHM,Cambodia,201001,4
+KHM,Cambodia,201002,1
+KHM,Cambodia,201003,3
+KHM,Cambodia,201004,1
+KHM,Cambodia,201101,1
+KHM,Cambodia,201102,2
+KHM,Cambodia,201103,1
+KHM,Cambodia,201104,1
+KHM,Cambodia,201201,1
+KHM,Cambodia,201202,2
+KHM,Cambodia,201203,1
+KHM,Cambodia,201204,1
+KHM,Cambodia,201301,2
+KHM,Cambodia,201302,2
+LAO,Laos,200804,1
+LAO,Laos,200901,2
+LAO,Laos,200902,2
+LAO,Laos,200903,2
+LAO,Laos,200904,2
+LAO,Laos,201001,1
+LAO,Laos,201002,1
+LAO,Laos,201003,1
+LAO,Laos,201004,2
+LAO,Laos,201101,1
+LAO,Laos,201102,1
+LAO,Laos,201103,2
+LAO,Laos,201104,1
+LAO,Laos,201201,1
+LAO,Laos,201202,1
+LAO,Laos,201203,1
+LAO,Laos,201204,1
+LAO,Laos,201301,2
+LAO,Laos,201302,2
+LBR,Liberia,200804,1
+LBR,Liberia,200901,1
+LBR,Liberia,200902,1
+LBR,Liberia,200903,1
+LBR,Liberia,200904,1
+LBR,Liberia,201001,1
+LBR,Liberia,201002,1
+LBR,Liberia,201003,1
+LBR,Liberia,201004,1
+LBR,Liberia,201101,1
+LBR,Liberia,201102,1
+LBR,Liberia,201103,1
+LBR,Liberia,201104,1
+LBR,Liberia,201201,1
+LBR,Liberia,201202,1
+LBR,Liberia,201203,1
+LBR,Liberia,201204,1
+LBR,Liberia,201301,1
+LBR,Liberia,201302,1
+LCA,Saint Lucia,200804,4
+LCA,Saint Lucia,200901,1
+LCA,Saint Lucia,200902,1
+LCA,Saint Lucia,200903,1
+LCA,Saint Lucia,200904,1
+LCA,Saint Lucia,201001,1
+LCA,Saint Lucia,201002,1
+LCA,Saint Lucia,201003,1
+LCA,Saint Lucia,201004,2
+LCA,Saint Lucia,201101,1
+LCA,Saint Lucia,201102,2
+LCA,Saint Lucia,201103,2
+LCA,Saint Lucia,201104,1
+LCA,Saint Lucia,201201,1
+LCA,Saint Lucia,201202,2
+LCA,Saint Lucia,201203,2
+LCA,Saint Lucia,201204,2
+LCA,Saint Lucia,201301,1
+LCA,Saint Lucia,201302,1
+LKA,Sri Lanka,200804,4
+LKA,Sri Lanka,200901,4
+LKA,Sri Lanka,200902,1
+LKA,Sri Lanka,200903,1
+LKA,Sri Lanka,200904,2
+LKA,Sri Lanka,201001,2
+LKA,Sri Lanka,201002,2
+LKA,Sri Lanka,201003,4
+LKA,Sri Lanka,201004,4
+LKA,Sri Lanka,201101,4
+LKA,Sri Lanka,201102,4
+LKA,Sri Lanka,201103,4
+LKA,Sri Lanka,201104,4
+LKA,Sri Lanka,201201,4
+LKA,Sri Lanka,201202,1
+LKA,Sri Lanka,201203,1
+LKA,Sri Lanka,201204,1
+LKA,Sri Lanka,201301,1
+LKA,Sri Lanka,201302,2
+MAC,Macao,200804,4
+MAC,Macao,200901,4
+MAC,Macao,200902,4
+MAC,Macao,200903,4
+MAC,Macao,200904,4
+MAC,Macao,201001,4
+MAC,Macao,201002,4
+MAC,Macao,201003,4
+MAC,Macao,201004,4
+MAC,Macao,201101,4
+MAC,Macao,201102,4
+MAC,Macao,201103,4
+MAC,Macao,201104,4
+MAC,Macao,201201,4
+MAC,Macao,201202,4
+MAC,Macao,201203,4
+MAC,Macao,201204,4
+MAC,Macao,201301,4
+MAC,Macao,201302,4
+MDG,Madagascar,200804,1
+MDG,Madagascar,200901,1
+MDG,Madagascar,200902,1
+MDG,Madagascar,200903,1
+MDG,Madagascar,200904,2
+MDG,Madagascar,201001,2
+MDG,Madagascar,201002,2
+MDG,Madagascar,201003,2
+MDG,Madagascar,201004,1
+MDG,Madagascar,201101,1
+MDG,Madagascar,201102,1
+MDG,Madagascar,201103,1
+MDG,Madagascar,201104,1
+MDG,Madagascar,201201,1
+MDG,Madagascar,201202,2
+MDG,Madagascar,201203,2
+MDG,Madagascar,201204,1
+MDG,Madagascar,201301,2
+MDG,Madagascar,201302,1
+MEX,Mexico,200804,4
+MEX,Mexico,200901,4
+MEX,Mexico,200902,1
+MEX,Mexico,200903,1
+MEX,Mexico,200904,1
+MEX,Mexico,201001,2
+MEX,Mexico,201002,2
+MEX,Mexico,201003,2
+MEX,Mexico,201004,2
+MEX,Mexico,201101,1
+MEX,Mexico,201102,1
+MEX,Mexico,201103,1
+MEX,Mexico,201104,1
+MEX,Mexico,201201,2
+MEX,Mexico,201202,2
+MEX,Mexico,201203,2
+MEX,Mexico,201204,2
+MEX,Mexico,201301,2
+MEX,Mexico,201302,2
+MMR,Myanmar,200804,2
+MMR,Myanmar,200901,1
+MMR,Myanmar,200902,1
+MMR,Myanmar,200903,1
+MMR,Myanmar,200904,1
+MMR,Myanmar,201001,1
+MMR,Myanmar,201002,1
+MMR,Myanmar,201003,2
+MMR,Myanmar,201004,2
+MMR,Myanmar,201101,2
+MMR,Myanmar,201102,2
+MMR,Myanmar,201103,2
+MMR,Myanmar,201104,1
+MMR,Myanmar,201201,1
+MMR,Myanmar,201202,1
+MMR,Myanmar,201203,1
+MMR,Myanmar,201204,1
+MMR,Myanmar,201301,2
+MMR,Myanmar,201302,2
+MTQ,Martinique,200804,4
+MTQ,Martinique,200901,1
+MTQ,Martinique,200902,2
+MTQ,Martinique,200903,4
+MTQ,Martinique,200904,1
+MTQ,Martinique,201001,1
+MTQ,Martinique,201002,1
+MTQ,Martinique,201003,1
+MTQ,Martinique,201004,1
+MTQ,Martinique,201101,2
+MTQ,Martinique,201102,1
+MTQ,Martinique,201103,1
+MTQ,Martinique,201104,1
+MTQ,Martinique,201201,1
+MTQ,Martinique,201202,2
+MTQ,Martinique,201203,2
+MTQ,Martinique,201204,1
+MTQ,Martinique,201301,1
+MTQ,Martinique,201302,1
+MUS,Mauritius,200804,4
+MUS,Mauritius,200901,4
+MUS,Mauritius,200902,4
+MUS,Mauritius,200903,4
+MUS,Mauritius,200904,4
+MUS,Mauritius,201001,4
+MUS,Mauritius,201002,4
+MUS,Mauritius,201003,4
+MUS,Mauritius,201004,4
+MUS,Mauritius,201101,4
+MUS,Mauritius,201102,4
+MUS,Mauritius,201103,4
+MUS,Mauritius,201104,4
+MUS,Mauritius,201201,4
+MUS,Mauritius,201202,4
+MUS,Mauritius,201203,4
+MUS,Mauritius,201204,4
+MUS,Mauritius,201301,4
+MUS,Mauritius,201302,4
+MYS,Malaysia,200804,2
+MYS,Malaysia,200901,2
+MYS,Malaysia,200902,3
+MYS,Malaysia,200903,3
+MYS,Malaysia,200904,1
+MYS,Malaysia,201001,1
+MYS,Malaysia,201002,1
+MYS,Malaysia,201003,1
+MYS,Malaysia,201004,2
+MYS,Malaysia,201101,1
+MYS,Malaysia,201102,2
+MYS,Malaysia,201103,1
+MYS,Malaysia,201104,1
+MYS,Malaysia,201201,1
+MYS,Malaysia,201202,2
+MYS,Malaysia,201203,2
+MYS,Malaysia,201204,1
+MYS,Malaysia,201301,1
+MYS,Malaysia,201302,1
+MYT,Mayotte,200804,2
+MYT,Mayotte,200901,2
+MYT,Mayotte,200902,2
+MYT,Mayotte,200903,2
+MYT,Mayotte,200904,1
+MYT,Mayotte,201001,1
+MYT,Mayotte,201002,2
+MYT,Mayotte,201003,1
+MYT,Mayotte,201004,1
+MYT,Mayotte,201101,1
+MYT,Mayotte,201102,1
+MYT,Mayotte,201103,2
+MYT,Mayotte,201104,1
+MYT,Mayotte,201201,1
+MYT,Mayotte,201202,1
+MYT,Mayotte,201203,1
+MYT,Mayotte,201204,1
+MYT,Mayotte,201301,2
+MYT,Mayotte,201302,1
+NCL,New Caledonia,200804,4
+NCL,New Caledonia,200901,4
+NCL,New Caledonia,200902,4
+NCL,New Caledonia,200903,4
+NCL,New Caledonia,200904,4
+NCL,New Caledonia,201001,4
+NCL,New Caledonia,201002,4
+NCL,New Caledonia,201003,4
+NCL,New Caledonia,201004,4
+NCL,New Caledonia,201101,4
+NCL,New Caledonia,201102,4
+NCL,New Caledonia,201103,4
+NCL,New Caledonia,201104,4
+NCL,New Caledonia,201201,4
+NCL,New Caledonia,201202,4
+NCL,New Caledonia,201203,4
+NCL,New Caledonia,201204,4
+NCL,New Caledonia,201301,4
+NCL,New Caledonia,201302,4
+NGA,Nigeria,200804,2
+NGA,Nigeria,200901,2
+NGA,Nigeria,200902,2
+NGA,Nigeria,200903,1
+NGA,Nigeria,200904,1
+NGA,Nigeria,201001,1
+NGA,Nigeria,201002,2
+NGA,Nigeria,201003,2
+NGA,Nigeria,201004,4
+NGA,Nigeria,201101,4
+NGA,Nigeria,201102,4
+NGA,Nigeria,201103,4
+NGA,Nigeria,201104,3
+NGA,Nigeria,201201,1
+NGA,Nigeria,201202,1
+NGA,Nigeria,201203,1
+NGA,Nigeria,201204,1
+NGA,Nigeria,201301,2
+NGA,Nigeria,201302,2
+NIC,Nicaragua,200804,4
+NIC,Nicaragua,200901,4
+NIC,Nicaragua,200902,4
+NIC,Nicaragua,200903,4
+NIC,Nicaragua,200904,4
+NIC,Nicaragua,201001,4
+NIC,Nicaragua,201002,4
+NIC,Nicaragua,201003,4
+NIC,Nicaragua,201004,4
+NIC,Nicaragua,201101,1
+NIC,Nicaragua,201102,3
+NIC,Nicaragua,201103,1
+NIC,Nicaragua,201104,1
+NIC,Nicaragua,201201,1
+NIC,Nicaragua,201202,1
+NIC,Nicaragua,201203,2
+NIC,Nicaragua,201204,2
+NIC,Nicaragua,201301,1
+NIC,Nicaragua,201302,1
+NPL,Nepal,200804,4
+NPL,Nepal,200901,1
+NPL,Nepal,200902,1
+NPL,Nepal,200903,1
+NPL,Nepal,200904,2
+NPL,Nepal,201001,2
+NPL,Nepal,201002,2
+NPL,Nepal,201003,1
+NPL,Nepal,201004,1
+NPL,Nepal,201101,1
+NPL,Nepal,201102,1
+NPL,Nepal,201103,1
+NPL,Nepal,201104,2
+NPL,Nepal,201201,2
+NPL,Nepal,201202,2
+NPL,Nepal,201203,1
+NPL,Nepal,201204,1
+NPL,Nepal,201301,1
+NPL,Nepal,201302,1
+PAN,Panama,200804,1
+PAN,Panama,200901,1
+PAN,Panama,200902,1
+PAN,Panama,200903,1
+PAN,Panama,200904,1
+PAN,Panama,201001,1
+PAN,Panama,201002,2
+PAN,Panama,201003,2
+PAN,Panama,201004,2
+PAN,Panama,201101,2
+PAN,Panama,201102,1
+PAN,Panama,201103,1
+PAN,Panama,201104,1
+PAN,Panama,201201,1
+PAN,Panama,201202,2
+PAN,Panama,201203,2
+PAN,Panama,201204,2
+PAN,Panama,201301,2
+PAN,Panama,201302,2
+PER,Peru,200804,1
+PER,Peru,200901,1
+PER,Peru,200902,1
+PER,Peru,200903,1
+PER,Peru,200904,1
+PER,Peru,201001,1
+PER,Peru,201002,1
+PER,Peru,201003,1
+PER,Peru,201004,1
+PER,Peru,201101,1
+PER,Peru,201102,1
+PER,Peru,201103,1
+PER,Peru,201104,2
+PER,Peru,201201,1
+PER,Peru,201202,2
+PER,Peru,201203,2
+PER,Peru,201204,2
+PER,Peru,201301,1
+PER,Peru,201302,1
+PHL,Philippines,200804,1
+PHL,Philippines,200901,1
+PHL,Philippines,200902,1
+PHL,Philippines,200903,1
+PHL,Philippines,200904,1
+PHL,Philippines,201001,2
+PHL,Philippines,201002,2
+PHL,Philippines,201003,2
+PHL,Philippines,201004,2
+PHL,Philippines,201101,2
+PHL,Philippines,201102,2
+PHL,Philippines,201103,1
+PHL,Philippines,201104,1
+PHL,Philippines,201201,1
+PHL,Philippines,201202,1
+PHL,Philippines,201203,1
+PHL,Philippines,201204,1
+PHL,Philippines,201301,1
+PHL,Philippines,201302,1
+PLW,Palau,200804,4
+PLW,Palau,200901,4
+PLW,Palau,200902,4
+PLW,Palau,200903,4
+PLW,Palau,200904,4
+PLW,Palau,201001,4
+PLW,Palau,201002,4
+PLW,Palau,201003,4
+PLW,Palau,201004,4
+PLW,Palau,201101,4
+PLW,Palau,201102,4
+PLW,Palau,201103,4
+PLW,Palau,201104,4
+PLW,Palau,201201,4
+PLW,Palau,201202,4
+PLW,Palau,201203,4
+PLW,Palau,201204,4
+PLW,Palau,201301,4
+PLW,Palau,201302,4
+PNG,Papua New Guinea,200804,1
+PNG,Papua New Guinea,200901,1
+PNG,Papua New Guinea,200902,2
+PNG,Papua New Guinea,200903,2
+PNG,Papua New Guinea,200904,1
+PNG,Papua New Guinea,201001,1
+PNG,Papua New Guinea,201002,1
+PNG,Papua New Guinea,201003,2
+PNG,Papua New Guinea,201004,2
+PNG,Papua New Guinea,201101,2
+PNG,Papua New Guinea,201102,2
+PNG,Papua New Guinea,201103,2
+PNG,Papua New Guinea,201104,1
+PNG,Papua New Guinea,201201,1
+PNG,Papua New Guinea,201202,1
+PNG,Papua New Guinea,201203,1
+PNG,Papua New Guinea,201204,1
+PNG,Papua New Guinea,201301,1
+PNG,Papua New Guinea,201302,1
+PRI,Puerto Rico,200804,2
+PRI,Puerto Rico,200901,1
+PRI,Puerto Rico,200902,1
+PRI,Puerto Rico,200903,1
+PRI,Puerto Rico,200904,4
+PRI,Puerto Rico,201001,4
+PRI,Puerto Rico,201002,4
+PRI,Puerto Rico,201003,4
+PRI,Puerto Rico,201004,4
+PRI,Puerto Rico,201101,4
+PRI,Puerto Rico,201102,4
+PRI,Puerto Rico,201103,4
+PRI,Puerto Rico,201104,3
+PRI,Puerto Rico,201201,1
+PRI,Puerto Rico,201202,1
+PRI,Puerto Rico,201203,2
+PRI,Puerto Rico,201204,1
+PRI,Puerto Rico,201301,2
+PRI,Puerto Rico,201302,3
+PRY,Paraguay,200804,2
+PRY,Paraguay,200901,2
+PRY,Paraguay,200902,4
+PRY,Paraguay,200903,1
+PRY,Paraguay,200904,1
+PRY,Paraguay,201001,2
+PRY,Paraguay,201002,4
+PRY,Paraguay,201003,4
+PRY,Paraguay,201004,4
+PRY,Paraguay,201101,4
+PRY,Paraguay,201102,4
+PRY,Paraguay,201103,4
+PRY,Paraguay,201104,4
+PRY,Paraguay,201201,4
+PRY,Paraguay,201202,4
+PRY,Paraguay,201203,3
+PRY,Paraguay,201204,4
+PRY,Paraguay,201301,4
+PRY,Paraguay,201302,4
+PYF,French Polynesia,200804,4
+PYF,French Polynesia,200901,4
+PYF,French Polynesia,200902,4
+PYF,French Polynesia,200903,4
+PYF,French Polynesia,200904,4
+PYF,French Polynesia,201001,4
+PYF,French Polynesia,201002,4
+PYF,French Polynesia,201003,4
+PYF,French Polynesia,201004,4
+PYF,French Polynesia,201101,4
+PYF,French Polynesia,201102,4
+PYF,French Polynesia,201103,4
+PYF,French Polynesia,201104,4
+PYF,French Polynesia,201201,4
+PYF,French Polynesia,201202,4
+PYF,French Polynesia,201203,4
+PYF,French Polynesia,201204,4
+PYF,French Polynesia,201301,4
+PYF,French Polynesia,201302,4
+REU,Reunion,200804,4
+REU,Reunion,200901,4
+REU,Reunion,200902,4
+REU,Reunion,200903,4
+REU,Reunion,200904,4
+REU,Reunion,201001,4
+REU,Reunion,201002,4
+REU,Reunion,201003,4
+REU,Reunion,201004,4
+REU,Reunion,201101,4
+REU,Reunion,201102,4
+REU,Reunion,201103,4
+REU,Reunion,201104,4
+REU,Reunion,201201,4
+REU,Reunion,201202,4
+REU,Reunion,201203,4
+REU,Reunion,201204,4
+REU,Reunion,201301,4
+REU,Reunion,201302,4
+RWA,Rwanda,200804,4
+RWA,Rwanda,200901,4
+RWA,Rwanda,200902,4
+RWA,Rwanda,200903,1
+RWA,Rwanda,200904,1
+RWA,Rwanda,201001,1
+RWA,Rwanda,201002,2
+RWA,Rwanda,201003,1
+RWA,Rwanda,201004,1
+RWA,Rwanda,201101,1
+RWA,Rwanda,201102,1
+RWA,Rwanda,201103,1
+RWA,Rwanda,201104,1
+RWA,Rwanda,201201,1
+RWA,Rwanda,201202,1
+RWA,Rwanda,201203,1
+RWA,Rwanda,201204,1
+RWA,Rwanda,201301,1
+RWA,Rwanda,201302,2
+SGP,Singapore,200804,1
+SGP,Singapore,200901,1
+SGP,Singapore,200902,2
+SGP,Singapore,200903,4
+SGP,Singapore,200904,4
+SGP,Singapore,201001,4
+SGP,Singapore,201002,4
+SGP,Singapore,201003,4
+SGP,Singapore,201004,4
+SGP,Singapore,201101,4
+SGP,Singapore,201102,4
+SGP,Singapore,201103,4
+SGP,Singapore,201104,4
+SGP,Singapore,201201,4
+SGP,Singapore,201202,4
+SGP,Singapore,201203,4
+SGP,Singapore,201204,4
+SGP,Singapore,201301,4
+SGP,Singapore,201302,4
+SLB,Solomon Islands,200804,1
+SLB,Solomon Islands,200901,2
+SLB,Solomon Islands,200902,2
+SLB,Solomon Islands,200903,1
+SLB,Solomon Islands,200904,2
+SLB,Solomon Islands,201001,4
+SLB,Solomon Islands,201002,4
+SLB,Solomon Islands,201003,4
+SLB,Solomon Islands,201004,4
+SLB,Solomon Islands,201101,4
+SLB,Solomon Islands,201102,4
+SLB,Solomon Islands,201103,4
+SLB,Solomon Islands,201104,4
+SLB,Solomon Islands,201201,4
+SLB,Solomon Islands,201202,4
+SLB,Solomon Islands,201203,4
+SLB,Solomon Islands,201204,4
+SLB,Solomon Islands,201301,4
+SLB,Solomon Islands,201302,4
+SLE,Sierra Leone,200804,1
+SLE,Sierra Leone,200901,1
+SLE,Sierra Leone,200902,1
+SLE,Sierra Leone,200903,1
+SLE,Sierra Leone,200904,1
+SLE,Sierra Leone,201001,1
+SLE,Sierra Leone,201002,2
+SLE,Sierra Leone,201003,2
+SLE,Sierra Leone,201004,1
+SLE,Sierra Leone,201101,1
+SLE,Sierra Leone,201102,1
+SLE,Sierra Leone,201103,1
+SLE,Sierra Leone,201104,1
+SLE,Sierra Leone,201201,2
+SLE,Sierra Leone,201202,1
+SLE,Sierra Leone,201203,2
+SLE,Sierra Leone,201204,2
+SLE,Sierra Leone,201301,2
+SLE,Sierra Leone,201302,2
+SLV,El Salvador,200804,4
+SLV,El Salvador,200901,4
+SLV,El Salvador,200902,4
+SLV,El Salvador,200903,4
+SLV,El Salvador,200904,4
+SLV,El Salvador,201001,4
+SLV,El Salvador,201002,4
+SLV,El Salvador,201003,4
+SLV,El Salvador,201004,4
+SLV,El Salvador,201101,4
+SLV,El Salvador,201102,4
+SLV,El Salvador,201103,4
+SLV,El Salvador,201104,4
+SLV,El Salvador,201201,4
+SLV,El Salvador,201202,4
+SLV,El Salvador,201203,4
+SLV,El Salvador,201204,4
+SLV,El Salvador,201301,4
+SLV,El Salvador,201302,4
+SP-,Spratly islands,200804,4
+SP-,Spratly islands,200901,4
+SP-,Spratly islands,200902,4
+SP-,Spratly islands,200903,4
+SP-,Spratly islands,200904,4
+SP-,Spratly islands,201001,4
+SP-,Spratly islands,201002,4
+SP-,Spratly islands,201003,4
+SP-,Spratly islands,201004,4
+SP-,Spratly islands,201101,4
+SP-,Spratly islands,201102,4
+SP-,Spratly islands,201103,4
+SP-,Spratly islands,201104,4
+SP-,Spratly islands,201201,4
+SP-,Spratly islands,201202,4
+SP-,Spratly islands,201203,4
+SP-,Spratly islands,201204,4
+SP-,Spratly islands,201301,4
+SP-,Spratly islands,201302,4
+SSD,South Sudan,200804,4
+SSD,South Sudan,200901,4
+SSD,South Sudan,200902,4
+SSD,South Sudan,200903,4
+SSD,South Sudan,200904,4
+SSD,South Sudan,201001,4
+SSD,South Sudan,201002,4
+SSD,South Sudan,201003,4
+SSD,South Sudan,201004,4
+SSD,South Sudan,201101,4
+SSD,South Sudan,201102,4
+SSD,South Sudan,201103,4
+SSD,South Sudan,201104,4
+SSD,South Sudan,201201,4
+SSD,South Sudan,201202,4
+SSD,South Sudan,201203,4
+SSD,South Sudan,201204,4
+SSD,South Sudan,201301,4
+SSD,South Sudan,201302,4
+STP,Sao Tome and Principe,200804,4
+STP,Sao Tome and Principe,200901,4
+STP,Sao Tome and Principe,200902,4
+STP,Sao Tome and Principe,200903,4
+STP,Sao Tome and Principe,200904,4
+STP,Sao Tome and Principe,201001,4
+STP,Sao Tome and Principe,201002,4
+STP,Sao Tome and Principe,201003,4
+STP,Sao Tome and Principe,201004,4
+STP,Sao Tome and Principe,201101,4
+STP,Sao Tome and Principe,201102,4
+STP,Sao Tome and Principe,201103,4
+STP,Sao Tome and Principe,201104,4
+STP,Sao Tome and Principe,201201,4
+STP,Sao Tome and Principe,201202,4
+STP,Sao Tome and Principe,201203,4
+STP,Sao Tome and Principe,201204,4
+STP,Sao Tome and Principe,201301,4
+STP,Sao Tome and Principe,201302,4
+SUR,Suriname,200804,1
+SUR,Suriname,200901,1
+SUR,Suriname,200902,1
+SUR,Suriname,200903,1
+SUR,Suriname,200904,1
+SUR,Suriname,201001,1
+SUR,Suriname,201002,1
+SUR,Suriname,201003,1
+SUR,Suriname,201004,2
+SUR,Suriname,201101,1
+SUR,Suriname,201102,1
+SUR,Suriname,201103,1
+SUR,Suriname,201104,1
+SUR,Suriname,201201,1
+SUR,Suriname,201202,1
+SUR,Suriname,201203,1
+SUR,Suriname,201204,1
+SUR,Suriname,201301,1
+SUR,Suriname,201302,1
+TGO,Togo,200804,1
+TGO,Togo,200901,2
+TGO,Togo,200902,2
+TGO,Togo,200903,1
+TGO,Togo,200904,2
+TGO,Togo,201001,1
+TGO,Togo,201002,1
+TGO,Togo,201003,1
+TGO,Togo,201004,1
+TGO,Togo,201101,1
+TGO,Togo,201102,2
+TGO,Togo,201103,1
+TGO,Togo,201104,2
+TGO,Togo,201201,1
+TGO,Togo,201202,2
+TGO,Togo,201203,1
+TGO,Togo,201204,1
+TGO,Togo,201301,2
+TGO,Togo,201302,2
+THA,Thailand,200804,4
+THA,Thailand,200901,1
+THA,Thailand,200902,1
+THA,Thailand,200903,2
+THA,Thailand,200904,2
+THA,Thailand,201001,2
+THA,Thailand,201002,1
+THA,Thailand,201003,1
+THA,Thailand,201004,1
+THA,Thailand,201101,1
+THA,Thailand,201102,2
+THA,Thailand,201103,2
+THA,Thailand,201104,1
+THA,Thailand,201201,1
+THA,Thailand,201202,1
+THA,Thailand,201203,1
+THA,Thailand,201204,2
+THA,Thailand,201301,2
+THA,Thailand,201302,2
+TTO,Trinidad and Tobago,200804,1
+TTO,Trinidad and Tobago,200901,1
+TTO,Trinidad and Tobago,200902,1
+TTO,Trinidad and Tobago,200903,1
+TTO,Trinidad and Tobago,200904,1
+TTO,Trinidad and Tobago,201001,1
+TTO,Trinidad and Tobago,201002,1
+TTO,Trinidad and Tobago,201003,1
+TTO,Trinidad and Tobago,201004,1
+TTO,Trinidad and Tobago,201101,1
+TTO,Trinidad and Tobago,201102,1
+TTO,Trinidad and Tobago,201103,1
+TTO,Trinidad and Tobago,201104,1
+TTO,Trinidad and Tobago,201201,2
+TTO,Trinidad and Tobago,201202,2
+TTO,Trinidad and Tobago,201203,2
+TTO,Trinidad and Tobago,201204,2
+TTO,Trinidad and Tobago,201301,1
+TTO,Trinidad and Tobago,201302,1
+TWN,Taiwan,200804,4
+TWN,Taiwan,200901,4
+TWN,Taiwan,200902,4
+TWN,Taiwan,200903,4
+TWN,Taiwan,200904,4
+TWN,Taiwan,201001,4
+TWN,Taiwan,201002,1
+TWN,Taiwan,201003,1
+TWN,Taiwan,201004,1
+TWN,Taiwan,201101,1
+TWN,Taiwan,201102,1
+TWN,Taiwan,201103,2
+TWN,Taiwan,201104,1
+TWN,Taiwan,201201,2
+TWN,Taiwan,201202,2
+TWN,Taiwan,201203,2
+TWN,Taiwan,201204,2
+TWN,Taiwan,201301,2
+TWN,Taiwan,201302,2
+TZA,Tanzania,200804,1
+TZA,Tanzania,200901,1
+TZA,Tanzania,200902,1
+TZA,Tanzania,200903,2
+TZA,Tanzania,200904,2
+TZA,Tanzania,201001,1
+TZA,Tanzania,201002,1
+TZA,Tanzania,201003,2
+TZA,Tanzania,201004,1
+TZA,Tanzania,201101,1
+TZA,Tanzania,201102,2
+TZA,Tanzania,201103,2
+TZA,Tanzania,201104,2
+TZA,Tanzania,201201,1
+TZA,Tanzania,201202,1
+TZA,Tanzania,201203,1
+TZA,Tanzania,201204,1
+TZA,Tanzania,201301,1
+TZA,Tanzania,201302,1
+UGA,Uganda,200804,1
+UGA,Uganda,200901,1
+UGA,Uganda,200902,1
+UGA,Uganda,200903,1
+UGA,Uganda,200904,1
+UGA,Uganda,201001,1
+UGA,Uganda,201002,2
+UGA,Uganda,201003,2
+UGA,Uganda,201004,2
+UGA,Uganda,201101,1
+UGA,Uganda,201102,1
+UGA,Uganda,201103,1
+UGA,Uganda,201104,1
+UGA,Uganda,201201,1
+UGA,Uganda,201202,1
+UGA,Uganda,201203,1
+UGA,Uganda,201204,1
+UGA,Uganda,201301,2
+UGA,Uganda,201302,2
+VCT,Saint Vincent and the Grenadines,200804,2
+VCT,Saint Vincent and the Grenadines,200901,1
+VCT,Saint Vincent and the Grenadines,200902,2
+VCT,Saint Vincent and the Grenadines,200903,2
+VCT,Saint Vincent and the Grenadines,200904,1
+VCT,Saint Vincent and the Grenadines,201001,2
+VCT,Saint Vincent and the Grenadines,201002,1
+VCT,Saint Vincent and the Grenadines,201003,1
+VCT,Saint Vincent and the Grenadines,201004,1
+VCT,Saint Vincent and the Grenadines,201101,1
+VCT,Saint Vincent and the Grenadines,201102,1
+VCT,Saint Vincent and the Grenadines,201103,2
+VCT,Saint Vincent and the Grenadines,201104,1
+VCT,Saint Vincent and the Grenadines,201201,2
+VCT,Saint Vincent and the Grenadines,201202,2
+VCT,Saint Vincent and the Grenadines,201203,2
+VCT,Saint Vincent and the Grenadines,201204,2
+VCT,Saint Vincent and the Grenadines,201301,1
+VCT,Saint Vincent and the Grenadines,201302,1
+VEN,Venezuela,200804,1
+VEN,Venezuela,200901,1
+VEN,Venezuela,200902,1
+VEN,Venezuela,200903,1
+VEN,Venezuela,200904,1
+VEN,Venezuela,201001,1
+VEN,Venezuela,201002,1
+VEN,Venezuela,201003,1
+VEN,Venezuela,201004,1
+VEN,Venezuela,201101,1
+VEN,Venezuela,201102,1
+VEN,Venezuela,201103,1
+VEN,Venezuela,201104,1
+VEN,Venezuela,201201,1
+VEN,Venezuela,201202,1
+VEN,Venezuela,201203,1
+VEN,Venezuela,201204,2
+VEN,Venezuela,201301,2
+VEN,Venezuela,201302,2
+VIR,Virgin Islands, U.S.,200804,4
+VIR,Virgin Islands, U.S.,200901,4
+VIR,Virgin Islands, U.S.,200902,4
+VIR,Virgin Islands, U.S.,200903,4
+VIR,Virgin Islands, U.S.,200904,4
+VIR,Virgin Islands, U.S.,201001,4
+VIR,Virgin Islands, U.S.,201002,4
+VIR,Virgin Islands, U.S.,201003,4
+VIR,Virgin Islands, U.S.,201004,4
+VIR,Virgin Islands, U.S.,201101,4
+VIR,Virgin Islands, U.S.,201102,4
+VIR,Virgin Islands, U.S.,201103,4
+VIR,Virgin Islands, U.S.,201104,4
+VIR,Virgin Islands, U.S.,201201,4
+VIR,Virgin Islands, U.S.,201202,4
+VIR,Virgin Islands, U.S.,201203,4
+VIR,Virgin Islands, U.S.,201204,4
+VIR,Virgin Islands, U.S.,201301,4
+VIR,Virgin Islands, U.S.,201302,4
+VNM,Vietnam,200804,1
+VNM,Vietnam,200901,1
+VNM,Vietnam,200902,2
+VNM,Vietnam,200903,2
+VNM,Vietnam,200904,2
+VNM,Vietnam,201001,2
+VNM,Vietnam,201002,1
+VNM,Vietnam,201003,1
+VNM,Vietnam,201004,1
+VNM,Vietnam,201101,1
+VNM,Vietnam,201102,1
+VNM,Vietnam,201103,1
+VNM,Vietnam,201104,1
+VNM,Vietnam,201201,1
+VNM,Vietnam,201202,1
+VNM,Vietnam,201203,2
+VNM,Vietnam,201204,2
+VNM,Vietnam,201301,2
+VNM,Vietnam,201302,2
+VUT,Vanuatu,200804,4
+VUT,Vanuatu,200901,4
+VUT,Vanuatu,200902,4
+VUT,Vanuatu,200903,4
+VUT,Vanuatu,200904,4
+VUT,Vanuatu,201001,4
+VUT,Vanuatu,201002,4
+VUT,Vanuatu,201003,4
+VUT,Vanuatu,201004,4
+VUT,Vanuatu,201101,4
+VUT,Vanuatu,201102,4
+VUT,Vanuatu,201103,4
+VUT,Vanuatu,201104,4
+VUT,Vanuatu,201201,4
+VUT,Vanuatu,201202,4
+VUT,Vanuatu,201203,4
+VUT,Vanuatu,201204,4
+VUT,Vanuatu,201301,4
+VUT,Vanuatu,201302,4
+WSM,Samoa,200804,4
+WSM,Samoa,200901,4
+WSM,Samoa,200902,4
+WSM,Samoa,200903,4
+WSM,Samoa,200904,4
+WSM,Samoa,201001,4
+WSM,Samoa,201002,4
+WSM,Samoa,201003,4
+WSM,Samoa,201004,4
+WSM,Samoa,201101,4
+WSM,Samoa,201102,4
+WSM,Samoa,201103,4
+WSM,Samoa,201104,4
+WSM,Samoa,201201,4
+WSM,Samoa,201202,4
+WSM,Samoa,201203,4
+WSM,Samoa,201204,4
+WSM,Samoa,201301,4
+WSM,Samoa,201302,4
