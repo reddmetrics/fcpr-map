@@ -1,15 +1,23 @@
-var countries, f, newval, graph;
+var countries, f, newval, graph, newval;
+var names = {};
 var m = [40, 40, 40, 40],
     w = 400 - m[1] - m[3],
     h = 400 - m[0] - m[2]
 // Scales and axes. Note the inverted domain for the y-scale: bigger is up!
 var x = d3.time.scale().range([0, w]),
     y = d3.scale.linear().range([h, 0]),
-    xAxis = d3.svg.axis().scale(x).tickSize(-h).tickSubdivide(true),
-    yAxis = d3.svg.axis().scale(y).orient("right");
-
+    xAxis = d3.svg.axis().scale(x).tickSize(-h).tickSubdivide(false).ticks(4),
+    yAxis = d3.svg.axis().scale(y).orient("right").ticks(4);
 
 parser = d3.time.format("%Y-%m").parse
+
+var createName = function() {
+  d3.select("#namer").text("Globe");
+};
+
+var updateName = function(iso) {
+  d3.select("#namer").text(names[iso]);
+};
 
 var parse = function(date_str) {
   var year = date_str.slice(0, 4)
@@ -19,7 +27,7 @@ var parse = function(date_str) {
   var start_month = (quarter * 3) - 2
 
   return parser(year + "-" + start_month.toString())
-}
+};
 
 // An area generator, for the light fill.
 var area = d3.svg.area()
@@ -40,13 +48,15 @@ var createGraph = function() {
   graph = d3.select("#graph").append("svg:svg")
       .attr("width", w + m[1] + m[3])
       .attr("height", h + m[0] + m[2])
-    .append("svg:g")
+      .append("svg:g")
       .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 };
 
 var updateGraph = function (iso) {
+  
+  updateName(iso);
 
-    newval = f.filter(function(d) {
+  newval = f.filter(function(d) {
     return d.iso == iso;
   });
 
@@ -57,15 +67,15 @@ var updateGraph = function (iso) {
   // Add the clip path.
   graph.append("svg:clipPath")
       .attr("id", "clip")
-    .append("svg:rect")
+      .append("svg:rect")
       .attr("width", w)
       .attr("height", h);
 
-  // Add the area path.
-  graph.append("svg:path")
-      .attr("class", "area")
-      .attr("clip-path", "url(#clip)")
-      .attr("d", area(newval));
+  // // Add the area path.
+  // graph.append("svg:path")
+  //     .attr("class", "area")
+  //     .attr("clip-path", "url(#clip)")
+  //     .attr("d", area(newval));
 
   // Add the x-axis.
   graph.append("svg:g")
@@ -93,12 +103,11 @@ var updateGraph = function (iso) {
       .text(newval[0].symbol);
 
   // On click, update the x-axis.
-    var t = graph.transition().duration(300);
-    t.select(".y.axis").call(yAxis);
-    t.select(".area").attr("d", area(newval));
-    t.select(".line").attr("d", line(newval));
+  var t = graph.transition().duration(300);
+  //t.select(".y.axis").call(yAxis);
+  //t.select(".area").attr("d", area(newval));
+  t.select(".line").attr("d", line(newval));
 }
-
 
 d3.csv("../assets/data/fcpr_final.csv", function(data) {
   // make data accessible outside of the scope of this function
@@ -111,5 +120,10 @@ d3.csv("../assets/data/fcpr_final.csv", function(data) {
   // Parse dates and numbers. We assume values are sorted by date.
   f.forEach(function(d) {
     d.date = parse(d.period);
-  });  
+    names[d.iso] = d.country;
+  });
+  createName();
+  createGraph();
+  updateGraph("IDN");
 });
+
