@@ -47,6 +47,7 @@ function clicked(d) {
     var centroid = path.centroid(d);
     x = centroid[0];
     y = centroid[1];
+    graphColors(d.properties.iso);
     k = 4;
     centered = d;
   } else {
