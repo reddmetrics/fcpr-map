@@ -1,22 +1,44 @@
-var countries, f, newval, graph, newval;
-var names = {};
-var m = [40, 40, 40, 40],
-    w = 400 - m[1] - m[3],
-    h = 400 - m[0] - m[2]
-// Scales and axes. Note the inverted domain for the y-scale: bigger is up!
-var x = d3.time.scale().range([0, w]),
-    y = d3.scale.linear().range([h, 0]),
-    xAxis = d3.svg.axis().scale(x).tickSize(-h).tickSubdivide(false).ticks(4),
-    yAxis = d3.svg.axis().scale(y).orient("right").ticks(4);
+var color_map =   {1:"red",
+                   2:"pink",
+                   3:"yellow",
+                   4:"green"};
 
-parser = d3.time.format("%Y-%m").parse
+var w=900, h=80, parser = d3.time.format("%Y-%m").parse;
 
-var createName = function() {
-  d3.select("#namer").text("Globe");
+x = d3.time.scale().range([0, w])
+
+var dat = [];
+var rows;
+var countries = {};
+
+var convert_date = function(date_str) {
+  var d = {
+           "200804": 0,
+           "200901": 1,
+           "200902": 2,
+           "200903": 3,
+           "200904": 4,
+           "201001": 5,
+           "201002": 6,
+           "201003": 7,
+           "201004": 8,
+           "201101": 9,
+           "201102": 10,
+           "201103": 11,
+           "201104": 12,
+           "201201": 13,
+           "201202": 14,
+           "201203": 15,
+           "201204": 16,
+           "201301": 17,
+           "201302": 18
+          };
+
+  return d[date_str]
 };
 
 var updateName = function(iso) {
-  d3.select("#namer").text(names[iso]);
+  d3.select("#namer").text(countries[iso]);
 };
 
 var parse = function(date_str) {
@@ -29,101 +51,59 @@ var parse = function(date_str) {
   return parser(year + "-" + start_month.toString())
 };
 
-// An area generator, for the light fill.
-var area = d3.svg.area()
-    .interpolate("monotone")
-    .x(function(d) { return x(d.date); })
-    .y0(h)
-    .y1(function(d) { return y(d.score); });
+var makeDataJSON = function(d) {return {"x": convert_date(d.period), "color": d.color}};
 
-// A line generator, for the dark stroke.
-var line = d3.svg.line()
-    .interpolate("monotone")
-    .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.score); });
+var filter_data = function(rows, code) {
 
-var createGraph = function() {
+  var f = rows.filter(function(x) { return x.iso == code })
+  var u = f.map(makeDataJSON);
 
-  // Add an SVG element with the desired dimensions and margin.
-  graph = d3.select("#graph").append("svg:svg")
-      .attr("width", w + m[1] + m[3])
-      .attr("height", h + m[0] + m[2])
-      .append("svg:g")
-      .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+  return u
 };
 
-var updateGraph = function (iso) {
-  
-  updateName(iso);
+var circles = function(dat) {svg.selectAll("circle")
+   .data(dat)
+   .enter()
+       .append("svg:circle")
+       .attr("class", "circle")
+       .attr("cx", function(d) { return (1 + d.x) * 40; })
+       .attr("cy", function(d) { return 10; })
+               .attr("r", 8)
+       .attr("fill", function(d) { return d.color })
+   };
 
-  newval = f.filter(function(d) {
-    return d.iso == iso;
-  });
+var graphColors = function(iso) {
+      updateName(iso);
+      console.log(iso);
+      dat = filter_data(rows, iso);
+      circles(dat);
+      d3.selectAll("circle").transition()
+          .duration(500)
+          .attr("fill", function(d) { return d.color});
 
-  // Compute the minimum and maximum date, and the maximum price.
-  x.domain([newval[0].date, newval[newval.length - 1].date]);
-  y.domain([0, d3.max(newval, function(d) { return d.score; })]).nice();
+};
 
-  // Add the clip path.
-  graph.append("svg:clipPath")
-      .attr("id", "clip")
-      .append("svg:rect")
-      .attr("width", w)
-      .attr("height", h);
+d3.csv("assets/data/fcpr_final.csv", function(loadedRows) {
+    loadedRows.map(function(d) { if (d.iso == "CIV") 
+                          {
+                            d.country = "Côte d'Ivoire"
+                          }
+                          countries[d.iso] = d.country});
 
-  // // Add the area path.
-  // graph.append("svg:path")
-  //     .attr("class", "area")
-  //     .attr("clip-path", "url(#clip)")
-  //     .attr("d", area(newval));
-
-  // Add the x-axis.
-  graph.append("svg:g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + h + ")")
-      .call(xAxis);
-
-  // Add the y-axis.
-  graph.append("svg:g")
-      .attr("class", "y axis")
-      .attr("transform", "translate(" + w + ",0)")
-      .call(yAxis);
-
-  // Add the line path.
-  graph.append("svg:path")
-      .attr("class", "line")
-      .attr("clip-path", "url(#clip)")
-      .attr("d", line(newval));
-
-  // Add a small label for the symbol name.
-  graph.append("svg:text")
-      .attr("x", w - 6)
-      .attr("y", h - 6)
-      .attr("text-anchor", "end")
-      .text(newval[0].symbol);
-
-  // On click, update the x-axis.
-  var t = graph.transition().duration(300);
-  //t.select(".y.axis").call(yAxis);
-  //t.select(".area").attr("d", area(newval));
-  t.select(".line").attr("d", line(newval));
-}
-
-d3.csv("../assets/data/fcpr_final.csv", function(data) {
-  // make data accessible outside of the scope of this function
-  f = data
-  
-  // build set of country codes so we can check map click for whether
-  // there's FCPR data to work with
-  countries = d3.set(data.map(function(d) { return d.iso })).values();
-
-  // Parse dates and numbers. We assume values are sorted by date.
-  f.forEach(function(d) {
-    d.date = parse(d.period);
-    names[d.iso] = d.country;
-  });
-  createName();
-  createGraph();
-  updateGraph("IDN");
+    rows = loadedRows;
+    rows.map(function(d) {
+      d.x = x(parse(d.period));
+      d.color = color_map[d.score];
+    });
+    dat = filter_data(loadedRows, "TRO"); // start with tropics
+    updateName("TRO") // ditto
+    circles(dat);
 });
 
+var svg = d3.select("#chart").append("svg:svg")
+                      .attr("width", w)
+                      .attr("height", h);
+
+svg.append("svg:rect")
+   .attr("width", w-4).attr("height",h-4)
+   .attr("fill", "rgb(255,255,255)");
