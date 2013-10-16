@@ -63,3 +63,7 @@ path.area {
   fill: none;
   stroke: #000;
 }
+
+.circle {
+ stroke: black;
+}
