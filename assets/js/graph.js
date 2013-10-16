@@ -4,21 +4,12 @@ var color_map =   {1:"red",
                    4:"green"};
 
 var w=900, h=80, parser = d3.time.format("%Y-%m").parse;
-var cols = ["red", "pink", "yellow", "green"]
 
 x = d3.time.scale().range([0, w])
 
-var dd;
-
-var parse = function(date_str) {
-  var year = date_str.slice(0, 4)
-  var quarter = parseInt(date_str.slice(-2, date_str.length))
-
-  // subtract two to get to first month of quarter
-  var start_month = (quarter * 3) - 2
-
-  return parser(year + "-" + start_month.toString())
-};
+var dat = [];
+var rows;
+var countries = {};
 
 var convert_date = function(date_str) {
   var d = {
@@ -46,51 +37,43 @@ var convert_date = function(date_str) {
   return d[date_str]
 };
 
-var filter_data = function(rows, iso) {
-  var f = rows.filter(function(x) { return x.iso == iso })
-  var u = f.map(function(e) { return {"x": convert_date(e.period), "color": e.color}} )
-  return u
-}
+var updateName = function(iso) {
+  d3.select("#namer").text(countries[iso]);
+};
 
-var dat = [];
-var rows;
-var iso = "IDN";
+var parse = function(date_str) {
+  var year = date_str.slice(0, 4)
+  var quarter = parseInt(date_str.slice(-2, date_str.length))
+
+  // subtract two to get to first month of quarter
+  var start_month = (quarter * 3) - 2
+
+  return parser(year + "-" + start_month.toString())
+};
+
+var makeDataJSON = function(d) {return {"x": convert_date(d.period), "color": d.color}};
+
+var filter_data = function(rows, code) {
+
+  var f = rows.filter(function(x) { return x.iso == code })
+  var u = f.map(makeDataJSON);
+
+  return u
+};
 
 var circles = function(dat) {svg.selectAll("circle")
    .data(dat)
    .enter()
        .append("svg:circle")
+       .attr("class", "circle")
        .attr("cx", function(d) { return (1 + d.x) * 40; })
        .attr("cy", function(d) { return 10; })
                .attr("r", 8)
        .attr("fill", function(d) { return d.color })
    };
 
-d3.csv("assets/data/fcpr_final.csv", function(loadedRows) {
-    rows = loadedRows;
-    dd = rows.map(function(d) {
-    d.x = x(parse(d.period));
-    d.color = color_map[d.score];
-  })
-    dat = filter_data(loadedRows, iso);
-    circles(dat);
-});
-
-
-var svg = d3.select("#chart").append("svg:svg")
-                      .attr("width", w)
-                      .attr("height", h);
-
-svg.append("svg:rect")
-   .attr("width", w-4).attr("height",h-4)
-   .attr("fill", "rgb(255,255,255)");
-
-
-var coll_iso =  ["IDN", "MYS", "COG", "NPL"];
-var iso_next;
-
 var graphColors = function(iso) {
-
+      updateName(iso);
       console.log(iso);
       dat = filter_data(rows, iso);
       circles(dat);
@@ -99,3 +82,28 @@ var graphColors = function(iso) {
           .attr("fill", function(d) { return d.color});
 
 };
+
+d3.csv("assets/data/fcpr_final.csv", function(loadedRows) {
+    loadedRows.map(function(d) { if (d.iso == "CIV") 
+                          {
+                            d.country = "Côte d'Ivoire"
+                          }
+                          countries[d.iso] = d.country});
+
+    rows = loadedRows;
+    rows.map(function(d) {
+      d.x = x(parse(d.period));
+      d.color = color_map[d.score];
+    });
+    dat = filter_data(loadedRows, "TRO"); // start with tropics
+    updateName("TRO") // ditto
+    circles(dat);
+});
+
+var svg = d3.select("#chart").append("svg:svg")
+                      .attr("width", w)
+                      .attr("height", h);
+
+svg.append("svg:rect")
+   .attr("width", w-4).attr("height",h-4)
+   .attr("fill", "rgb(255,255,255)");
