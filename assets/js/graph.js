@@ -11,6 +11,8 @@ var dat = [];
 var rows;
 var countries = {};
 
+// add a new date to the bottom if there's more data
+
 var convert_date = function(date_str) {
   var d = {
            "200804": 0,
@@ -84,7 +86,7 @@ var graphColors = function(iso) {
 };
 
 d3.csv("assets/data/fcpr_final.csv", function(loadedRows) {
-    loadedRows.map(function(d) { if (d.iso == "CIV") 
+    loadedRows.map(function(d) { if (d.iso == "CIV") // fix circumflex on 'o'
                           {
                             d.country = "Côte d'Ivoire"
                           }
@@ -101,9 +103,24 @@ d3.csv("assets/data/fcpr_final.csv", function(loadedRows) {
 });
 
 var svg = d3.select("#chart").append("svg:svg")
-                      .attr("width", w)
-                      .attr("height", h);
+  .attr("width", w)
+  .attr("height", h)
+  .attr("id", "#chart-svg");
 
-svg.append("svg:rect")
-   .attr("width", w-4).attr("height",h-4)
-   .attr("fill", "rgb(255,255,255)");
+
+
+// svg.append("svg:rect")
+//    .attr("width", w-4).attr("height",h-4)
+//    .attr("fill", "rgb(255,255,255)");
+
+// x = d3.time.scale().range([0, width]);
+// x.domain([values[0].date, values[values.length - 1].date]);
+
+// xAxis = d3.svg.axis().scale(x).tickSize(-height).tickSubdivide(true);
+
+
+// // Add the x-axis.
+//   svg.append("g")
+//       .attr("class", "x axis")
+//       .attr("transform", "translate(0," + height + ")")
+//       .call(xAxis);
