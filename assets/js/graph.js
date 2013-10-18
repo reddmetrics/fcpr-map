@@ -4,40 +4,11 @@ var color_map =   {1:"red",
                    4:"green"};
 
 var w=900, h=80, parser = d3.time.format("%Y-%m").parse;
-
-x = d3.time.scale().range([0, w])
+x = d3.time.scale().range([0, w - 200])
 
 var dat = [];
 var rows;
 var countries = {};
-
-// add a new date to the bottom if there's more data
-
-var convert_date = function(date_str) {
-  var d = {
-           "200804": 0,
-           "200901": 1,
-           "200902": 2,
-           "200903": 3,
-           "200904": 4,
-           "201001": 5,
-           "201002": 6,
-           "201003": 7,
-           "201004": 8,
-           "201101": 9,
-           "201102": 10,
-           "201103": 11,
-           "201104": 12,
-           "201201": 13,
-           "201202": 14,
-           "201203": 15,
-           "201204": 16,
-           "201301": 17,
-           "201302": 18
-          };
-
-  return d[date_str]
-};
 
 var updateName = function(iso) {
   d3.select("#namer").text(countries[iso]);
@@ -53,13 +24,21 @@ var parse = function(date_str) {
   return parser(year + "-" + start_month.toString())
 };
 
-var makeDataJSON = function(d) {return {"x": convert_date(d.period), "color": d.color}};
+var makeDataJSON = function(d) {
+  return {"date": parse(d.period), "color": d.color}};
+
+var setXDomain = function(data) {
+  var max = d3.max(data, function(d) {return d.date});
+  var min = d3.min(data, function(d) {return d.date});
+  x.domain([min, max]);
+}
 
 var filter_data = function(rows, code) {
 
   var f = rows.filter(function(x) { return x.iso == code })
   var u = f.map(makeDataJSON);
-
+  setXDomain(u);
+  
   return u
 };
 
@@ -68,7 +47,7 @@ var circles = function(dat) {svg.selectAll("circle")
    .enter()
        .append("svg:circle")
        .attr("class", "circle")
-       .attr("cx", function(d) { return (1 + d.x) * 40; })
+                      .attr("cx", function(d) { return x(d.date) + 10; })
        .attr("cy", function(d) { return 10; })
                .attr("r", 8)
        .attr("fill", function(d) { return d.color })
@@ -107,14 +86,10 @@ var svg = d3.select("#chart").append("svg:svg")
   .attr("height", h)
   .attr("id", "#chart-svg");
 
-
-
 // svg.append("svg:rect")
 //    .attr("width", w-4).attr("height",h-4)
 //    .attr("fill", "rgb(255,255,255)");
 
-// x = d3.time.scale().range([0, width]);
-// x.domain([values[0].date, values[values.length - 1].date]);
 
 // xAxis = d3.svg.axis().scale(x).tickSize(-height).tickSubdivide(true);
 
