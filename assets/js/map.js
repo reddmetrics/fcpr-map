@@ -13,55 +13,50 @@ var svg = d3.select("#map").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-svg.append("rect")
-    .attr("class", "background")
-    .attr("width", width)
-    .attr("height", height)
-    .on("click", clicked);
-
 var g = svg.append("g");
 
 d3.json("assets/data/world_forma.json", function(error, topology) {
+  var features = topojson.feature(topology, topology.objects.ne_110m_admin_0_countries_forma).features;
+
   g.append("g")
-      .attr("class", "countries")
+    .attr("class", "countries")
     .selectAll("path")
-      .data(topojson.feature(topology, topology.objects.ne_110m_admin_0_countries_forma).features)
+    .data(features)
     .enter().append("path")
-      .attr("d", path)
-      .attr("class", function(d) { if (d.properties.forma == 1) 
-                            {return "forma"} })
-    .attr("class", function(d) { if ( d.properties.admin == "Antarctica" ) 
-                          {return "antarctica"}})
+    .attr("d", path)
+    .attr("class", function(d) {if (d.properties.forma == 1) 
+                         {return "forma"}
+                         else {
+                           if (d.properties.admin == "Antarctica" ) 
+                           {return "antarctica"}
+                           }})
       .on("click", clicked);
-
-  g.append("path")
-      .datum(topojson.mesh(topology, topology.objects.ne_110m_admin_0_countries_forma, function(a, b) { return a !== b; }))
-      .attr("class", "country-borders")
-      .attr("d", path);
 });
-
+ 
 function clicked(d) {
   var x, y, k;
-
   if (d && centered !== d) {
-    var centroid = path.centroid(d);
-    x = centroid[0];
-    y = centroid[1];
-    graphColors(d.properties.iso);
-    k = 4;
-    centered = d;
-  } else {
-    x = width / 2;
-    y = height / 2;
-    k = 1;
-    centered = null;
-  }
+      if (d.properties.forma == 1) {
+        var centroid = path.centroid(d);
+        x = centroid[0];
+        y = centroid[1];
+        k = 4; // zoom factor
+        centered = d;
+        graphColors(d.properties.iso);
 
-  g.selectAll("path")
-      .classed("active", centered && function(d) { return d === centered; });
-
-  g.transition()
+        g.selectAll("path")
+          .classed("active", centered && function(d) { return d === centered; });
+      }
+    }
+    else {
+      x = width / 2;
+      y = height / 2;
+      k = 1; // zoom factor
+      centered = null;
+    }
+    
+    g.transition()
       .duration(750)
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-      .style("stroke-width", 1.5 / k + "px");
+      .style("stroke-width", 1 / k + "px");
 }
