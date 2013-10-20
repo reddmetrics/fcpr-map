@@ -10,9 +10,12 @@ var dat = [];
 var rows;
 var countries = {};
 
+var datedict = {0:"2008", 4:"2009", 8:"2010"};
+
 var updateName = function(iso) {
   d3.select("#namer").text(countries[iso]);
 };
+
 
 var parse = function(date_str) {
   var year = date_str.slice(0, 4)
@@ -42,16 +45,27 @@ var filter_data = function(rows, code) {
   return u
 };
 
-var circles = function(dat) {svg.selectAll("circle")
+var circles = function(dat) {
+  svg.selectAll("circle")
    .data(dat)
    .enter()
        .append("svg:circle")
        .attr("class", "circle")
                       .attr("cx", function(d) { return x(d.date) + 10; })
-       .attr("cy", function(d) { return 10; })
+       .attr("cy", function(d) { return 20; })
                .attr("r", 8)
        .attr("fill", function(d) { return d.color })
-   };
+
+  svg.selectAll("text")
+   .data(dat)
+   .enter()
+       .append("svg:text")
+       .attr("class", "graph-text")
+       .text(function(d) { if (d.date.getMonth() == 0) { return d.date.getFullYear() };})
+    .attr("x", function(d) { return (x(d.date) - 5) ; })
+       .attr("y", 50)
+};
+
 
 var graphColors = function(iso) {
       updateName(iso);
@@ -63,6 +77,7 @@ var graphColors = function(iso) {
           .attr("fill", function(d) { return d.color});
 
 };
+
 
 d3.csv("assets/data/fcpr_final.csv", function(loadedRows) {
     loadedRows.map(function(d) { if (d.iso == "CIV") // fix circumflex on 'o'

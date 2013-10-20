@@ -52,6 +52,8 @@ function clicked(d) {
       x = width / 2;
       y = height / 2;
       k = 1; // zoom factor
+      graphColors("TRO");
+      g.selectAll("path").classed("active", null)
       centered = null;
     }
     
