@@ -35,25 +35,24 @@ d3.json("assets/data/world_forma.json", function(error, topology) {
  
 function clicked(d) {
   var x, y, k;
-  if (d && centered !== d) {
-      if (d.properties.forma == 1) {
+  if (d && centered !== d && d.properties.forma == 1) {
         var centroid = path.centroid(d);
         x = centroid[0];
         y = centroid[1];
         k = 4; // zoom factor
         centered = d;
         graphColors(d.properties.iso);
-
         g.selectAll("path")
           .classed("active", centered && function(d) { return d === centered; });
       }
-    }
     else {
       x = width / 2;
       y = height / 2;
       k = 1; // zoom factor
       centered = null;
-    }
+      graphColors("TRO");
+      g.selectAll("path").classed("active", null)
+   }
     
     g.transition()
       .duration(750)
