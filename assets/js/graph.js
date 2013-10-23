@@ -28,7 +28,7 @@ var parse = function(date_str) {
 };
 
 var makeDataJSON = function(d) {
-  return {"date": parse(d.period), "color": d.color}};
+  return {"iso":d.iso, "date": parse(d.period), "color": d.color}};
 
 var setXDomain = function(data) {
   var max = d3.max(data, function(d) {return d.date});
@@ -46,7 +46,7 @@ var filter_data = function(rows, code) {
 };
 
 var circles = function(dat) {
-  svg.selectAll("circle")
+  svg.selectAll(".circles")
    .data(dat)
    .enter()
        .append("svg:circle")
@@ -94,23 +94,10 @@ d3.csv("assets/data/fcpr_final.csv", function(loadedRows) {
     dat = filter_data(loadedRows, "TRO"); // start with tropics
     updateName("TRO") // ditto
     circles(dat);
+
 });
 
 var svg = d3.select("#chart").append("svg:svg")
   .attr("width", w)
   .attr("height", h)
   .attr("id", "#chart-svg");
-
-// svg.append("svg:rect")
-//    .attr("width", w-4).attr("height",h-4)
-//    .attr("fill", "rgb(255,255,255)");
-
-
-// xAxis = d3.svg.axis().scale(x).tickSize(-height).tickSubdivide(true);
-
-
-// // Add the x-axis.
-//   svg.append("g")
-//       .attr("class", "x axis")
-//       .attr("transform", "translate(0," + height + ")")
-//       .call(xAxis);
